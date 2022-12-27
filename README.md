@@ -1,4 +1,4 @@
-<img src="https://res.cloudinary.com/dwnm1wdkt/image/upload/v1652185276/Project%201/Mother_and_baby_Logo_w07dsl.png" width="30% " height="30%" alt="Mother and baby group logo">
+<img src="https://res.cloudinary.com/dyhess8yw/image/upload/v1672148931/project%201/p1_logo_egoqyt.png" width="30% " height="30%" alt="Mother and baby group logo">
 
 # **_Westport's Mother and Baby group - Project Portfolio 1 - HTML & CSS_**
 They say it takes a village to raise a child, well this website aims to allow new parents to reach out to their community and build that support system. Not only will it outline Westport's Mother and baby group meetups and schedules, but also have a section for other events organised by the mother and baby grounp and within the greater Westport community.
