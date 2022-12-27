@@ -1,0 +1,1155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Patua+One&display=swap');
+
+/* Default rules for whole body */
+body {
+  font-family: Comfortaa, Arial, sans-serif;
+  color: #086972;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+h2 {
+  font-size: 1.88rem;
+}
+
+h3 {
+  font-size: 1.70rem;
+}
+
+h4 {
+  font-size: 1.50rem;
+    color: #086972;
+}
+
+
+h5 {
+  font-size: 1.55rem;
+}
+
+
+p {
+  font-size: 1.25rem;
+}
+
+/*Navigation links*/
+
+.top-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0 20px;
+  font-size: 1.88rem;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+
+}
+/* Nav buttons */
+.menu>a {
+  font-family: 'Patua One' , Georgia, sans-serif;
+  margin: 0 1rem;
+  overflow: hidden;
+  color: #086972;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/*Hover element */
+.menu a:hover {
+  color: white;
+  background-color: #086972;
+  padding: 20px;
+}
+
+/* Logo */
+#logo {
+  width: 250px;
+}
+
+/*hero image/video */
+
+video {
+  width: 100%;
+}
+
+/*footer*/
+
+footer {
+  height: 220px;
+  width: 100%;
+  color: white;
+  background-color: #086972;
+}
+
+/*styling of footer*/
+#contact-info {
+  font-family: 'Patua One' , Georgia, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+/* Style the contact us link in the footer */
+#contact-info a{
+  color: white;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+
+#contact-info ul {
+  list-style-type: none;
+}
+
+/* hover effect over contact us tab */
+#contact-info a :hover {
+  font-size: 35px;
+}
+
+
+/* Sizing and colour of social media tabs */
+.fa-brands {
+  font-size: 1.25rem;
+  padding-top: 20px;
+  color: white;
+}
+
+/*body welcome page*/
+
+.welcome-text {
+  color: #086972;
+  text-align: center;
+  font-size: 1.88rem;
+  margin: 30px;
+}
+
+/*Ethos*/
+
+#ethos {
+  height: 1000px;
+  width: 100%;
+  background-color: #086972;
+  color: white;
+}
+
+#welcome {
+  width: 100%
+}
+
+#welcome h2 {
+  padding: 20px 0;
+}
+
+#ethos p {
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+
+/* Meet up schedule */
+
+/* heading for section */
+
+#weekly {
+  text-align: center;
+  background: #086972;
+  height: 60px;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+
+/* Time table section */
+
+#time-table {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 500px;
+}
+
+/* Time table boxes */
+#time-table div {
+  color: white;
+  background-color: #086972;
+  width: 400px;
+  height: 450px;
+  border: 10px solid white;
+  padding: 20px 20px 20px 10px;
+  text-align: center;
+  box-sizing: border-box;
+
+
+}
+
+
+/* styling of icons */
+.fa-solid {
+  padding: 20px;
+}
+
+/*Hover element */
+#buggy a:hover {
+  background-color: white;
+  color:#086072;
+}
+
+#softplay a:hover {
+  background-color: white;
+  color:#086072;
+}
+
+#tea a:hover {
+  background-color: white;
+  color:#086072;
+}
+
+/* Styling of text in time table boxes */
+#time-table>div>h3 {
+  padding-top: 10px;
+}
+
+#time-table h2 {
+  padding-bottom: 8px;
+}
+
+/*Styling of Google map link */
+#time-table a {
+  font-size: 25px;
+  color: white;
+}
+
+
+/* Testimonial section*/
+
+#our-parents {
+  margin-top: 10px;
+ 
+}
+
+
+#our-parents h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+  background-color: #086972;
+  padding: 16px;
+  margin: 16px 0;
+  color: white;
+  font-size: 25px;
+}
+
+.container p {
+  padding-left: 120px;
+}
+
+.stars {
+  padding: 10px 120px 0;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+  float: left;
+  margin-right: 30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+
+/*Events Page */
+#events {
+  width: 100%;
+  height: 50px;
+  background-color: #086972;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+/* Yoga mom Advertisment */
+
+#yoga {
+  text-align: center;
+  padding: 0 20px;
+}
+
+/*Yoga heading */
+#yoga h3{
+  color: #086972;
+}
+
+/* Sizing of yoga and massage images */
+.item,
+.item-1 {
+  width: 250px;
+  height: 250px;
+}
+
+/*massage advertisment */
+#massage {
+  margin: 100px 0;
+  text-align: center;
+  padding: 20px;
+}
+#massage h3{
+  color:#086972
+}
+
+/* Weaning advertisment */
+
+#weaning {
+  margin: 100px 0;
+  text-align: center;
+  padding: 20px;
+}
+
+#weaning h3{
+  color: #086972;
+}
+#video-weaning {
+  height: 300px;
+  width: 500px;
+}
+
+/* Pre-booking form */
+
+#heading-form, h2 {
+  width: 100%;
+  background-color: #086972;
+  color: white;
+  text-align: center;
+  height: 50px;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+
+#form-section {
+  width: 100%;
+  height: 650px;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#sign-up-photo img {
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+
+#sign-up-form {
+  color: white;
+  width: 50%;
+  text-align: left;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: #086972;
+  border-bottom: 2px solid white;
+  padding: 20px;
+}
+
+
+.fieldset input {
+  width: 350px;
+  height: 30px;
+  display: inline-block;
+  text-align: left;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+#baby-age {
+  margin: 0 0 0 50px;
+  font-size: 20px;
+  color: grey;
+
+}
+
+/*heading */
+
+legend {
+  font-size: 25px;
+}
+
+#course-choice {
+  padding: 10px;
+}
+
+/* style the radio button */
+#mommy-yoga {
+  width: 25px;
+  height: 25px;
+}
+
+#baby-massage {
+  width: 25px;
+  height: 25px;
+}
+
+#whats-app-group {
+  width: 25px;
+  height: 25px;
+}
+
+/*submit button*/
+#submit-button input {
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  width: 120px;
+  color: #086072;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#booking-button:hover {
+  background-color: #086972;
+  color: white;
+  border: 2px solid white;
+}
+
+/*contact us page */
+
+
+/* Contact us Form */
+#contact-us {
+  color: #086972;
+  width: 50%;
+}
+
+/*Style get in touch header*/
+#contact-us, h3{
+padding-top: 40px;
+
+}
+#form {
+  margin: 60px 20px;
+  height: 350px;
+  width: 100%;
+  padding-top: 60px;
+}
+
+/*Style form heading */
+#form-heading h3{
+  padding-left: 20px;
+  
+}
+
+#form label{
+  font-family: 'Patua One' , Georgia, sans-serif;
+  font-size: 25px;
+}
+#form input {
+  width: 300px;
+  height: 25px;
+  font-size: 20px;
+  border: 2px solid #086972;
+}
+
+#message {
+  width: 300px;
+  font-size: 20px;
+  border: 2px solid #086972;
+}
+
+#form #button {
+  width: 100px;
+  background-color: #086972;
+  color: white;
+
+
+}
+
+#form #button:hover {
+  border: 2px solid white;
+  background-color: #086972;
+  color: white;
+}
+
+/*google map */
+#contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: -75px;
+}
+
+
+#contact-wrapper h3 {
+  color: #086972;
+  padding-bottom: 90px;
+}
+
+/*Map element of the page*/
+
+#map-container {
+  height: 400px;
+  width: 50%;
+ 
+}
+
+/* Media Query */
+
+/* from 1025 up */
+@media only screen and (min-width: 1025px) {
+  #ethos {
+    height: 400px;
+  }
+}
+
+/*For larger screens from 1024px wide and down*/
+@media only screen 
+and (max-width: 1024px){
+ 
+
+
+  /* Ethos Section on home page */
+
+ #ethos {
+    height: 550px;
+  }
+
+  #ethos p {
+    font-size: 30px;
+  }
+
+/* Re-styling meet-up section */
+  #time-table {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+
+  /* Pre-booking form */
+
+  #sign-up-form {
+    width: 80%;
+  }
+
+
+
+}
+
+/*For small phone screens max width 768px*/
+@media screen and (max-width: 768px) {
+
+
+  /* Re-align nav-bar */
+.top-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    height: 100px;
+  }
+
+
+
+
+  /*resize Ethos section */
+ #ethos {
+  height: 500px;
+  }
+
+
+  #ethos p {
+    font-size: 25px;
+
+  }
+
+  /* Restyle and size meet ups on timetable */
+  #time-table {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 1400px;
+  }
+
+
+  #time-table div {
+    width: 100%;
+  }
+
+  /* Events page */
+
+  /*Resize yoga images */
+  .item, .item-1 {
+    width: 150px;
+    height: 150px;
+  }
+
+ 
+
+
+
+  /* Restyle and align sign up photo */
+
+
+  /* Resize form section */
+  .fieldset input {
+    width: 250px;
+    text-align: left;
+  }
+
+  /* Re-size contact us form page */
+  #contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: stretch;
+  }
+
+  #map-container {
+    height: 450px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Change the color of the map heading */
+ #contact-wrapper h3 {
+    padding-bottom: 90px;
+  }
+
+  #contact-us {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* change color of header */
+
+#form-heading h3{
+  text-align: center;
+}
+
+  #form {
+    margin: 0;
+  }
+}
+
+/*For small phone screens Max wide to 639px*/
+@media screen 
+and (max-width: 639px) {
+
+  .top-nav {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+
+
+
+  #ethos {
+    height: 700px;
+  }
+
+  /* Restyling the meetup up section */
+  #time-table {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 1200px;
+  }
+
+  #time-table div {
+    width: 100%;
+  }
+
+  #yoga .item {
+    display: none;
+  }
+
+  #massage .item {
+    display: none;
+  }
+
+
+  /* Amend placement of form */
+
+  #sign-up-form {
+    padding: 30px 0 0 60px;
+    width: 100%;
+  }
+
+  /* Re-size and amend placing on image */
+  #sign-up-photo {
+    display: none;
+
+  }
+
+  .fieldset input {
+    font-size: 15px;
+
+  }
+
+  #baby-age {
+    font-size: 17px;
+  }
+
+  #mommy-yoga {
+    width: 17px;
+    height: 17px;
+
+  }
+
+  #baby-massage {
+    width: 17px;
+    height: 17px;
+
+  }
+
+  #whats-app-group {
+    width: 17px;
+    height: 17px;
+  }
+
+  legend {
+    font-size: 20px;
+  }
+
+  #submit-button input {
+    font-size: 17px;
+
+  }
+
+  /* Re-position Map in contact us page */
+  #contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: stretch;
+  }
+
+  #map-container {
+    height: 450px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact-us {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Change the color of the map heading */
+  #contact-wrapper h3 {
+    padding-bottom: 90px;
+  }
+
+  #form {
+    margin: 0;
+
+  }
+
+
+}
+/*For small phone screens max wide to 479px*/
+@media screen 
+and (max-width: 479px) {
+
+
+  /* Resize nav bar */
+
+  .top-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+
+
+
+
+  /* Re-align nav-bar */
+
+  .menu {
+    font-size: 20px;
+    width: 360px;
+    padding-left: 50px;
+  }
+
+  .menu>a {
+    margin: 0 10px;
+  }
+
+
+  /* Re-size ethos section */
+
+  #ethos {
+    height: 800px;
+  }
+
+
+  /* Restyling the meetup up section */
+ #time-table {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #time-table div {
+    width: 100%;
+  }
+
+  #weekly-meetup {
+    height: 1300px;
+  }
+
+
+  /* Style Testimonial section */
+
+
+  /*Remove images from Testimonial section */
+  .container img {
+    display: none;
+  }
+
+  .container p {
+    padding: 0;
+  }
+
+  .stars {
+    padding: 10px 0;
+  }
+
+  /* Events page */
+
+  /* Make some of the images hide with small screen size */
+
+  #yoga .item {
+    display: none;
+  }
+
+  #massage .item {
+    display: none;
+  }
+
+  /* Change the fonts for both massage and yoga adds */
+  #yoga-advertisment h4 {
+    font-size: 20px;
+  }
+
+  #massage-advertisment h4 {
+    font-size: 20px;
+  }
+
+  /* Re- size video */
+ #video-weaning {
+    height: 300px;
+    width: 300px;
+  }
+
+  /* Re-size weaning sections font */
+ #weaning-advertisment h4 {
+    font-size: 20px;
+  }
+
+  /*Pre-booking form */
+
+  /* Make the image hide for small screens */
+#sign-up-photo {
+    display: none;
+
+  }
+
+  /* Amend the length of for the form */
+ #form-section {
+    height: 550px;
+  }
+
+  #sign-up-form {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fieldset input {
+    font-size: 17px;
+    height: 20px;
+    width: 300px;
+  }
+
+  #baby-age {
+    font-size: 17px;
+    padding: 5px;
+  }
+
+  #mommy-yoga {
+    width: 17px;
+    height: 17px;
+
+  }
+
+  #baby-massage {
+    width: 17px;
+    height: 17px;
+
+  }
+
+  #whats-app-group {
+    width: 17px;
+    height: 17px;
+  }
+
+  legend {
+    font-size: 20px;
+  }
+
+  #submit-button input {
+    font-size: 17px;
+
+  }
+
+  /* Re-position map in contact us page */
+
+  #contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: stretch;
+  }
+
+  #map-container {
+    height: 450px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact-us {
+    width: 100%;
+    text-align: center;
+  }
+
+  #form {
+    margin: 0;
+  }
+}
+
+/*For small phone screens 349px and smaller*/
+@media screen 
+and (max-width: 349px){
+
+/* Resize nav bar */
+
+.top-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0 20px;
+  font-size: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  
+}
+
+
+/* Re-align nav-bar */
+
+.menu {
+  font-size: 20px;
+  width: 360px;
+  padding-left: 50px;
+}
+
+.menu>a {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+#ethos{
+  height: 1200px;
+}
+/* Restyling the meetup up section */
+#time-table {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#time-table div {
+  width: 100%;
+}
+
+#weekly-meetup {
+  height: 800px;
+}
+
+/* Style Testimonial section */
+
+
+  /*Remove images from Testimonial section */
+  .container img {
+    display: none;
+  }
+
+  .container p {
+    padding: 0;
+  }
+
+  .stars {
+    padding: 10px 0;
+  }
+
+
+/* Events page */
+
+  /* Make some of the images hide with small screen size */
+
+ #yoga .item {
+    display: none;
+  }
+
+  #massage .item {
+    display: none;
+  }
+
+  /* Change the fonts for both massage and yoga adds */
+ #yoga-advertisment h4 {
+    font-size: 20px;
+  }
+
+  #massage-advertisment h4 {
+    font-size: 20px;
+  }
+
+  /* Re- size video */
+  #video-weaning {
+    height: 300px;
+    width: 300px;
+  }
+
+  /* Re-size weaning sections font */
+  #weaning-advertisment h4 {
+    font-size: 20px;
+  }
+
+  /*Pre-booking form */
+
+  /* Make the image hide for small screens */
+ #sign-up-photo {
+    display: none;
+
+  }
+
+  /* Amend the length of for the form */
+  #form-section {
+    height: 550px;
+  }
+
+  #sign-up-form {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .fieldset input {
+    font-size: 17px;
+    height: 20px;
+    width: 300px;
+  }
+
+  #baby-age {
+    font-size: 17px;
+    padding: 5px;
+  }
+
+  #mommy-yoga {
+    width: 17px;
+    height: 17px;
+
+  }
+
+  #baby-massage {
+    width: 17px;
+    height: 17px;
+
+  }
+
+  #whats-app-group {
+    width: 17px;
+    height: 17px;
+  }
+
+  legend {
+    font-size: 20px;
+  }
+
+  #submit-button input {
+    font-size: 17px;
+  }
+   /* Re-position map in contact us page */
+
+ #contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: stretch;
+  }
+
+  #map-container {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact-us {
+    width: 100%;
+    text-align: center;
+  }
+
+  #form {
+    margin: 0;
+  }
+}
